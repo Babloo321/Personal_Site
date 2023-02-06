@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Online Flight Booking</title>
+    <link href="design.css" rel="stylesheet"></link>
+</head>
+<body>
+    <form>
+   <h1>FLIGHT RESERVATION</h1>
+   <p>Please make sure that you fill in the name which is in your passport</p>
+   <h3>Passenger Name</h3>
+   <label >First Name</label>
+   <input type="text">&nbsp;&nbsp;
+   <label>Second Name</label>
+   <input type="text">&nbsp;&nbsp;
+   <label>Last Name</label>
+   <input type="text"><br><br>
+   <label>Date of Birth</label><br>
+   <input type="date" placeholder="Enter Your D.O.B"><br><br>
+   <label>E-mail</label>
+   <input type="email" placeholder="ex:myname@example.com"><br><br>
+   <label>Phone Number</label><br>
+   <input type="number"><br><br>
+   <label>Address</label><br>
+   <textarea cols="100" rows="5" placeholder="Enter your first address"></textarea><br><br>
+   <label>Street Address</label><br>
+   <textarea cols="100"rows="5" placeholder="Enter your crossponding address"></textarea><br><br>
+   <label>City</label><br>
+   <input type="text"><br><br>
+   <label>Postal Code</label><br>
+   <input type="text"><br><br>
+   <label><strong>International or Domestic Flight?</strong></label><br>
+   <input type="radio" name="flight">&nbsp;
+   <label>International</label><br>
+   <input type="radio" name="flight">&nbsp;
+    <label>Domestic</label><br><br>
+<label>Departure Date & Time</label><br>
+<input type="datetime-local"><br><br>
+<span>
+<label for="City">Departing From<br>
+    <select name="City" id="City" aria-placeholder="Please Select">
+        <option value="New Delhi">Please Select</option>
+        <option value="New Delhi">New Delhi</option>
+        <option value="Old Delhi">Old Delhi</option>
+        <option value="Anand Vihar Terminal">Anand Vihar Terminal</option>
+        <option value="Kanpur">Kanpur</option>
+    </select>
+</label>
+</span>
+<br><br>
+<span>
+<label for="City">Destionation<br>
+<select name="City" id="City">
+    <option value="Select Option">Select Option</option>
+    <option value="New York">New York</option>
+    <option value="United State Americ">United State Americ</option>
+    <option value="London">London</option>
+    <option value="Paris">paris</option>
+</select>
+</label>
+</span>
+<br><br>
+<label>Airline<br>
+<select name="Airline" id="Airline">
+    <option value="">Please Select</option>
+    <option value="Air-India">Air-India</option>
+    <option value="">ABCD</option>
+    <option value="">XYZW</option>
+</select>
+</label><br>
+<br>
+<input type="submit">
+</form>
+</body>
+</html>
